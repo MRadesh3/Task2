@@ -1,0 +1,156 @@
+.india {
+  background-color: #9933cc;
+  color: white;
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.left_content {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.left_items {
+  background-color: #33b5e5;
+  color: white;
+  width: 290px;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 4px;
+  font-size: 17px;
+}
+
+.center_content {
+  display: inline-block;
+  width: 850px;
+  padding: 25px;
+}
+
+.head {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.right_content {
+  display: inline-block;
+  background-color: #33b5e5;
+  color: white;
+  padding: 30px 9px 5px 9px;
+}
+
+.lists {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.leftside {
+  display: flex;
+  padding: 20px;
+}
+
+.para {
+  font-size: 16px;
+}
+
+li {
+  font-size: 17px;
+}
+
+@media screen and (max-width:720px) {
+  .leftside {
+    display: table-cell;
+    padding: 20px;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .right_content {
+    display: block;
+  }
+
+  .left_items {
+    background-color: #33b5e5;
+    color: white;
+    width: 170px;
+  }
+
+  .center_content {
+    display: inline-block;
+    width: 70%;
+    padding: 25px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:620px) {
+  .leftside {
+    display: table-cell;
+    padding: 20px;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .right_content {
+    display: block;
+  }
+
+  .left_items {
+    background-color: #33b5e5;
+    color: white;
+    width: 150px;
+  }
+
+  .center_content {
+    display: inline-block;
+    width: 370px;
+    padding: 25px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .whole {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .center_content {
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .left_content {
+    width: 100%;
+  }
+
+  .left_items {
+    background-color: #33b5e5;
+    color: white;
+    width: 100%;
+  }
+
+  .right_content {
+    display: none;
+    padding: 0;
+  }
+
+  .right_content {
+    display: inline-block;
+    background-color: #33b5e5;
+    color: white;
+    padding: 30px 9px 5px 9px;
+    width: 100%;
+  }
+}
